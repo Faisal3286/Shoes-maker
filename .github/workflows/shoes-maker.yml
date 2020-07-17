@@ -37,4 +37,4 @@ jobs:
     - name: install Surge
       run: npm install -g surge
     - name: Deploy to Surge
-      run: surge ./build Shoes-maker#P3.surge.sh --token ${{Secrets.SURGE_TOKEN}}
+      run: surge ./build Shoes-maker-p3.surge.sh --token ${{Secrets.SURGE_TOKEN}}
