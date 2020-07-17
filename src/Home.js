@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import {Grid, makeStyles, Paper, Button, Typography} from '@material-ui/core';
-import bg from './homeBg.jpg';
 import './App.css';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { context, cartContext } from './Context';
